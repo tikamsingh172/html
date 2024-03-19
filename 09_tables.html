@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <!-- <style>
+        .table1{margin: 100px;}
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      thead,
+      tfoot {
+        background-color: #3f87a6;
+        color: #ffffff;
+      }
+      tbody {
+        background-color: #e4f0f5;
+      }
+      th,td{
+        border: 2px solid #414141;
+        text-align: left;
+        padding: 10px;
+      }
+    </style> -->
+<style>
+    .table2{margin: 100px;}
+    table{
+        border-collapse:collapse ;
+    }
+    th,td{
+        border: 2px solid #414141;
+        padding: 10px;
+        text-align: left;
+    }
+    tr:nth-child(even){
+        background-color: #dddddd;
+    }
+</style>  
+</head>
+
+  <body>
+    <!-- <div class="table1">
+      <table>
+        <thead>
+          <tr>
+            <th>Country Name</th>
+            <th>Code</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india@google.com</td>
+          </tr>
+          <tr>
+            <td>Japan</td>
+            <td>Japan</td>
+            <td>japan@google.com</td>
+          </tr>
+          <tr>
+            <td>Chaina</td>
+            <td>CN</td>
+            <td>chaina@google.com</td>
+          </tr>
+          <tr>
+            <td>Russia</td>
+            <td>RS</td>
+            <td>russia@google.com</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">This is a country list.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div> -->
+    <div class="table2">
+        <table style="width: 60%;">
+            <tr>
+                <th>Employee Id</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Tikam Singh</td>
+                <td>tikam@gamil.com</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Akash Chaudhary</td>
+                <td>Akash@gmail.com</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Ajay Bharti</td>
+                <td>ajay@gmil.com</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Rahul Sharma</td>
+                <td>rahul@gmil.com</td>
+            </tr>
+        </table>
+    </div>
+    <div class="table3">
+        <table>
+            <tr>
+                <th rowspan="5">Sr.No.</th>
+                <th>Roll No.</th>
+                <th>name</th>
+                <th>marks</th>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>Ajay</td>
+                <td>2200</td>
+            </tr>
+            <tr>
+                <td>202</td>
+                <td>Aman</td>
+                <td>2300</td>
+            </tr>
+            <tr>
+                <td>203</td>
+                <td>Nitesh</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>204</td>
+                <td>Raju</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td colspan="4">student marks</td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
